@@ -1,0 +1,24 @@
+/* css for Emoji */
+
+#emoji{
+    position: absolute;
+    top:56%;
+    right: 6%;
+    width:855px;
+    height:220px;
+    color:black;
+    backdrop-filter:blur(10px);
+    opacity:1;
+    border-radius:5px;
+    box-shadow: rgba(0,0,0,0.16) 0px 3px 6px,rgba(0,0,0,23) 0px 3px 6px;
+}
+#emoji #myTabContent {
+	height:20vh;
+}   
+#myTabContent a{
+	text-decoration:none;
+	font-size:25px;
+	cursor:pointer;
+/*    background: yellow;*/
+    color: black;
+}

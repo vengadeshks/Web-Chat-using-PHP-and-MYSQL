@@ -1,0 +1,577 @@
+/*css for privacy*/
+#privacy{
+	position:absolute;
+	position:absolute;
+    width: 460px;
+    height: 100%;
+    left:-200%;
+    top:0;
+    transition : .3s linear;
+    background: white;
+}
+#privacy.active{
+	    left: 0px;
+    margin: auto;
+}
+#privacy header{
+
+	height:100px;
+    background-color:#048dfe;
+}
+#privacy header i{
+	font-size: 19px;
+    color:#fff;
+	margin-top:70px;
+	margin-left:30px;
+	font-weight:bold;
+}
+/* 
+
+/* Css for security*/
+#security{
+	position:absolute;
+	position:absolute;
+    width: 460px;
+    height: 100%;
+    left: -200%;
+    top:0;
+    transition : .3s linear;
+    background: white;
+}
+#security.active{
+	    left: 0px;
+    margin: auto;
+}
+#security header{
+
+	height:100px;
+    background-color:#048dfe;
+}
+#security header i{
+	font-size: 19px;
+    color:#fff;
+	margin-top:70px;
+	margin-left:30px;
+	font-weight:bold;
+}
+/* Css for deleting account*/
+#deleteacc{
+	position:absolute;
+	position:absolute;
+    width: 460px;
+    height: 100%;
+    left: -200%;
+    top:0;
+    transition : .3s linear;
+    background: white;
+}
+#deleteacc.active{
+	    left: 0px;
+    margin: auto;
+}
+#deleteacc header{
+
+	height:100px;
+    background-color:#048dfe;
+}
+#deleteacc header i{
+	font-size: 19px;
+    color:#fff;
+	margin-top:70px;
+	margin-left:30px;
+	font-weight:bold;
+}
+/* cssfor changing number */
+#changeno{
+	position:absolute;
+	position:absolute;
+    width: 460px;
+    height: 100%;
+    left: -200%;
+    top:0;
+    transition : .3s linear;
+    background: white;
+	
+}
+#changeno.active{
+    left: 0px;
+    margin: auto;
+    }
+#changeno header{
+
+	height:100px;
+    background-color:#048dfe;
+}
+#changeno header i{
+	font-size: 19px;
+    color:#fff;
+	margin-top:70px;
+	margin-left:30px;
+	font-weight:bold;
+}
+
+/*  css for  acc   */
+#acc{
+	position:absolute;
+	position:absolute;
+    width: 460px;
+    height: 100%;
+    left: -200%;
+    top:0;
+    transition : .3s linear;
+    background: white;
+	
+}
+
+#acc.active{
+    left: 0px;
+    margin: auto;
+    }
+
+
+#acc header{
+
+	height:100px;
+    background-color:#048dfe;
+}
+#acc header i{
+	font-size: 19px;
+    color:#fff;
+	margin-top:70px;
+	margin-left:30px;
+	font-weight:bold;
+}
+
+
+/*  css for profile*/
+
+#profile{
+    position:absolute;
+    width: 460px;
+    height: 100%;
+    left: -200%;
+    top:0;
+    transition : .3s linear;
+    background: white;
+}
+
+#profile.active{
+    left: 0px;
+    margin: auto;
+    }
+
+
+#profile header{
+
+	height:100px;
+    background-color:#048dfe;
+}
+#profile header i{
+	font-size: 19px;
+    color:#fff;
+	margin-top:70px;
+	margin-left:30px;
+	font-weight:bold;
+}
+.box .profiletext{
+    position: relative;
+}
+.box .profiletext input{
+
+    padding: 15px 0;
+    font-size: 16px;
+    color:#03a9f4;
+	margin-left:130px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #03a9f4;
+	text-align:center;
+    margin-left:100px;
+}
+.box .profiletext label{
+    position: absolute;
+	text-align:center;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color:#03a9f4;
+    pointer-events: none;
+    transition: .5s;
+    margin-left:100px;
+}
+.box .profiletext input:focus + label,
+.box .profiletext input:valid + label
+{
+    top: -15px;
+    left: 0;
+    color: rgba(0,0,0,0);
+}
+.box input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color:beige;
+    background: #03a9f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+.box input[type="submit"]:hover{
+    background:dodgerblue;
+}
+.profileimage{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+.profileimage img{
+    border-radius: 50%;
+    border: 2px solid #03a9f4;
+}
+
+.profileimage img:hover{
+opacity:0.6;
+}
+
+
+
+
+
+/*  css for profile - right*/
+
+#clickedprofile{
+    position:absolute;
+    width: 300px;
+    height: 100%;
+    right: -200%;
+    top:0;
+    transition : .3s linear;
+    background: white;
+
+
+}
+#clickedprofile.active{
+    right: 0px;
+    margin: auto;
+    }
+
+#clickedprofile header{
+   height:100px;
+    background-color:#048dfe;
+}
+
+#clickedprofile header i{
+	font-size: 19px;
+    color:#fff;
+	margin-top:70px;
+	margin-left:180px;
+	font-weight:bold;
+}
+#right-side.active{
+    width:45%;
+    transition: 0.3s;
+}
+/* css for chat wallpaper*/
+#chat-wallpaper{
+	position:absolute;
+	position:absolute;
+    width: 460px;
+    height: 100%;
+    left:-200%;
+    top:0;
+    transition : .3s linear;
+    background: white;
+}
+#chat-wallpaper.active{
+	left: 0px;
+    margin: auto;
+}
+#chat-wallpaper header{
+	height:100px;
+    background-color:#048dfe;
+}
+#chat-wallpaper header i{
+	font-size: 19px;
+    color:#fff;
+	margin-top:70px;
+	margin-left:30px;
+	font-weight:bold;
+}
+
+.cont1{
+    padding:0 40px;
+    display: flex;
+	height:160px;
+}
+.box1 {
+	background:#fff;
+    height:95px;
+	width:95px;
+	margin-top:40px;
+    border:1px solid grey;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box1:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.box2{
+    width:95px;
+	height:95px;
+    border:1px solid grey;
+	margin-top:40px;
+    background:#b3ffff;
+    margin-left:20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box2:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.box3 {
+	background:#e0e0eb;
+    height:95px;
+	width:95px;
+	margin-top:40px;
+    border:1px solid grey;
+    cursor: pointer;
+	margin-left:20px;
+    margin-bottom: 2px;
+}
+.box3:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.cont2{
+    padding:0 40px 10px;
+    display: flex;
+	height:130px;
+}
+.box4{
+    width:95px;
+	height:95px;
+    border:1px solid grey;
+	margin-top:5px;
+    background:#f2ccff;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box4:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.box5{
+	background:#f2f2f2;
+    height:95px;
+	width:95px;
+	margin-top:5px;
+	margin-left:20px;
+    border:1px solid grey;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box5:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.box6{
+    width:95px;
+	height:95px;
+    border:1px solid grey;
+	margin-top:5px;
+    background:#d6d6f5;
+    margin-left:20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box6:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.cont3{
+    padding:0 40px 10px;
+    display: flex;
+	height:130px;
+}
+
+.box7{
+	background:#ffe6f9;
+    height:95px;
+	width:95px;
+	margin-top:5px;
+    border:1px solid grey;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box7:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.box8{
+    width:95px;
+	height:95px;
+    border:1px solid grey;
+	margin-top:5px;
+    background:#ffb3b3;
+    margin-left:20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box8:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.box9{
+    width:95px;
+	height:95px;
+    border:1px solid grey;
+	margin-top:5px;
+    background:#98F5B1;
+    margin-left:20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box9:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.cont4{
+    padding:0 40px 10px;
+    display: flex;
+	height:160px;
+}
+
+.box10{
+	background:#799fcb;
+    height:95px;
+	width:95px;
+	margin-top:5px;
+    border:1px solid grey;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box10:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.box11{
+    width:95px;
+	height:95px;
+    border:1px solid grey;
+	margin-top:5px;
+    background:#ecddd0;
+    margin-left:20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box11:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+.box12{
+    width:95px;
+	height:95px;
+    border:1px solid grey;
+	margin-top:5px;
+    background:#f9665e;
+    margin-left:20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.box12:hover{
+	width:90px;
+	height:90px;
+	border:3px solid grey;
+}
+/* css for contactus */
+#conus{
+    position:absolute;
+    width: 460px;
+    height: 100%;
+    left: -200%;
+    top:0;
+    transition : .3s linear;
+    background: white;
+}
+#conus.active{
+    left: 0px;
+    margin: auto;
+    }
+
+#conus header{
+	height:100px;
+    background-color:#048dfe;
+}
+#conus header i{
+	font-size: 19px;
+    color:#fff;
+	margin-top:70px;
+	margin-left:30px;
+	font-weight:bold;
+}
+.contact-form h2{
+    color: #03a9f4;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family:Joti One;
+}
+.contact-form textarea{
+    background: #000;
+    opacity: 0.19;
+    color:white;
+    border: none;
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    min-height: 100px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    outline: none;
+}
+.contact-form textarea::placeholder{
+    color:white;
+    opacity:0.5;
+}
+.contact-form input[type="submit"]{
+    border: none;
+    outline: none;
+    color:beige;
+    background: #03a9f4;
+    padding: 15px 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    right: 150px;
+    font-weight: 600;
+    transition: .3s;
+    margin-left: 260px;
+   opacity:0.8;
+}
+.contact-form input[type="submit"]:hover{
+    opacity: 1;
+    
+}
+
+
+
