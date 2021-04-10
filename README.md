@@ -1,2 +1,2 @@
 # Web-Chat-using-PHP-and-MYSQL
-Just like whats app people can with their friend and edit personal details
+A web chat application that allows the user to message with other registered users and update user details like user dp, wallpaper, etc. Furthermore, the user can view details of his/her friends and view the offline/online status of friends. Features such as sending emojis, deleting sent messages, receiving notifications for received messages, and searching for other users are all included as well. The last sent message by the user or to the user will be displayed on the chat window overview
